@@ -1,0 +1,34 @@
+{
+"boilerplate":
+{
+	"prefix": "boilerplate",
+	"body": [
+	  "#include <iostream>",
+	  "using namespace std;",
+	  "",
+	  "int main(){",
+	  "\t$0",
+	  "\treturn 0;",
+	  "}"
+	],
+	"description": "C++ Boilerplate"
+},
+
+	"print":
+	{
+		"prefix": "mpt",
+		"body": [
+			"cout << \"$0\";"
+		],
+		"description": "print shortcut"
+	},
+
+	"input":
+	{
+		"prefix": "scf",
+		"body": [
+			"cin >> $0;"
+		],
+		"description": "input shortcut"
+	}
+}
