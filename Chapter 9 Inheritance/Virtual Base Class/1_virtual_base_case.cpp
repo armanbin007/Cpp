@@ -9,15 +9,15 @@ class Student{
         } void print_roll(){
             cout << "Roll : "<< roll <<endl;
         }
-}; class Test : virtual public Student{ // here we used virtual to inherit set_roll(); function only ones.
+}; class Test : virtual public Student{ // here we used virtual to inherit set_roll(); function only once.
     protected:                          // if we don't use virtual then in main func. when set_roll is called
-        float maths, physics;           // it will throw a ambiguity error....
+        float maths, programming;           // it will throw a ambiguity error....
     public:
         void set_marks(float a, float b){
-            maths = a; physics = b;
+            maths = a; programming = b;
         } void print_marks(){
             cout << "Math = "<<maths <<endl;
-            cout << "Physics = "<<physics <<endl;
+            cout << "programming = "<<programming <<endl;
         }
 }; class Sports : virtual public Student{
     protected:
@@ -32,7 +32,7 @@ class Student{
     float total;
     public:
         void display(){
-            total = maths + physics + score;
+            total = maths + programming + score;
             print_roll();
             print_marks();
             print_score();

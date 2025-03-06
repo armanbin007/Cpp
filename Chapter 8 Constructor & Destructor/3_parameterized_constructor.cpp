@@ -7,7 +7,7 @@ class Point{
             x = a;
             y = b;
         } void displayPoint(){
-            cout << "The point is ("<<x<<", "<<y<<")" <<endl;
+            cout << "The point is (" <<x<< ", " <<y<< ")" <<endl;
         }
 };
 int main(){

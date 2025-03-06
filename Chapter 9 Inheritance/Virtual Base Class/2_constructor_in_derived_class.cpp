@@ -9,8 +9,7 @@ class Base1{
         } void printDataBase1(void){
             cout<<"The value of data1 is "<<data1<<endl;
         }
-};
-class Base2{
+}; class Base2{
     int data2;
     public:
         Base2(int a){
@@ -27,7 +26,7 @@ class Base2{
             derived2 = d;
             cout << "Derived constructor is called" <<endl;
         } void printDataDerived(){
-            cout << "The value of derived1 and derived 2 is "<< derived1<<" and "<<derived2 <<endl;
+            cout << "The value of derived1 and derived2 is "<< derived1<<" and "<<derived2 <<endl;
         }
 };
 int main(){

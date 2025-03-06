@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void print(const string& msg){
-    // msg = "Hi";   It won't work because msg is now constant!
+    // msg = "Hi";   //It won't work because msg is now constant!
     cout << msg <<endl;
 }
 int main(){

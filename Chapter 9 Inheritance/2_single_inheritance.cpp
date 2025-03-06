@@ -15,7 +15,7 @@ class Base{
 } int Base::getData2(){
     return data2;
 }
-class Derived : private Base{ // Visibility set to private means: all public members of base inherited to other class will be private members.
+class Derived : private Base{ // Visibility set to private means: all public members of base class, inherited to other class will be private members.
     int data3;
     public:
     void process(){

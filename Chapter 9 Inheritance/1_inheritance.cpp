@@ -23,9 +23,9 @@ int main(){
     Employee harry(1001), arman(1002);
     cout << "Salary of Harry: " << harry.salary <<endl;
     cout << "Salary of Arman: " << arman.salary <<endl;
-    Programmer skill(1003);
-    cout << "Language code: " <<skill.lang <<endl;
+    Programmer Ahmed(1003);
+    cout << "Ahmed data\nLanguage code: " <<Ahmed.lang <<endl;
     // cout << skill.id <<endl; // I can directly print this because the visibility is set to public;
-    skill.print(); // If there is no visilibility then it is set to private by default
+    Ahmed.print(); // If there is no visilibility then it is set to private by default
     return 0;
 }

@@ -6,7 +6,7 @@ class num{
         num(){
             count++;
             cout << "Constructor is called for obj: "<<count <<endl;
-        } ~num(){
+        } ~num(){ // ~ is destructor sign
             cout << "Destructor is called for obj: "<< count <<endl;
             count--;
         }

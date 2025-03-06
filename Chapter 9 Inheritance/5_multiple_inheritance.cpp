@@ -14,9 +14,7 @@ class Base1{
         void set_data2(int y){
             data2 = y;
         }
-};
-
-class Derived : public Base1, public Base2{
+}; class Derived : public Base1, public Base2{
     public:
         void show(){
             cout << "The value of Base1 = "<<data1 <<endl;

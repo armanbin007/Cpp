@@ -8,7 +8,7 @@ class BankDeposit{
     BankDeposit(int p, int y, int r){
     principal = p; 
     years = y; 
-    interestRate = r / 100.0;
+    interestRate = r / 100.0; // r = 5%
     returnValue = principal;
     for (int i = 0; i < y; i++){
         returnValue = returnValue * (1+ interestRate);
@@ -17,7 +17,7 @@ class BankDeposit{
     BankDeposit(int p, int y, float r){
     principal = p; 
     years = y; 
-    interestRate = r; 
+    interestRate = r; // r = 0.05 (5%)
     returnValue = principal;
     for (int i = 0; i < y; i++){
         returnValue = returnValue * (1+ interestRate);
