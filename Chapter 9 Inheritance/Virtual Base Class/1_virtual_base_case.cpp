@@ -38,7 +38,7 @@ class Student{
             print_score();
             cout << "Total marks is = "<< total <<endl;
         }
-};
+}; 
 int main(){
     Result arman;
     arman.set_roll(2189);

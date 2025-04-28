@@ -16,7 +16,7 @@ class Base{
 };
 int main(){
     Base *ptr1, obj_base;
-    Derived obj_derived;
+    Derived *ptr2, obj_derived;
     ptr1 = &obj_derived;
     ptr1 -> display();  // Here it used derived class function because base class func is virtual
     return 0;

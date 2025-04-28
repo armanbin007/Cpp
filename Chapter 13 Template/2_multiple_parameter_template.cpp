@@ -15,6 +15,8 @@ class Base{
 };
 int main(){
     Base <int, string> o1(10, "Arman");
+    Base o2(10.78, "Arman");
     o1.getData();
+    o2.getData();
     return 0;
 }

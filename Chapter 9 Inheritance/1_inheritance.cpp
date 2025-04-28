@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class Employee{  // Base class
+class Employee{ // Base class
     public:
     int id;
     float salary;
@@ -8,7 +8,7 @@ class Employee{  // Base class
         id = x;
         salary = 13000;
     } Employee(){}
-}; class Programmer : public Employee{  // Inherited Class // visibility_type Class_name  <--- syntax
+}; class Programmer : public Employee{ // Inherited Class // visibility_type Class_name  <--- syntax
     public:
     int lang;
     Programmer(int x){
